@@ -9,9 +9,13 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView textView;
     private Button btn;
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        
+        textView = findViewById(R.id.textview);
+        btn = findViewById(R.id.btn);
     }
 }
